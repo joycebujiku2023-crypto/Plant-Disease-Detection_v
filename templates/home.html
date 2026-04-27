@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PHASAL — Plant Disease Recognition</title>
+  <link rel="icon" href="../static/images/logo.svg" type="image/svg+xml"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../static/css/style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="topbar">
+  <div class="tb-brand">
+    <div class="tb-icon">🌿</div>
+    <div class="tb-name">PHA<b>SAL</b></div>
+  </div>
+  <div class="tb-chips">
+    <span class="tb-chip chip-green">EN · SW</span>
+    <span class="tb-chip chip-gold">AI Powered</span>
+  </div>
+</header>
+
+<!-- ══ SECTION 1: HERO ══ -->
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-tint"></div>
+  <div class="hero-pattern"></div>
+  <div class="hero-inner">
+
+    <div class="hero-copy">
+      <div class="hero-eyebrow a1">AI Crop Disease Diagnosis</div>
+      <h1 class="hero-h1 a2">
+        Protect Your<br/>
+        Crops With
+        <em>Smart AI</em>
+      </h1>
+      <p class="hero-desc a3">
+        Upload a leaf photo — get an instant bilingual diagnosis in
+        <strong style="color:rgba(255,255,255,.85)">English</strong> and
+        <strong style="color:rgba(255,255,255,.85)">Kiswahili</strong>.
+        Disease name, symptoms, prevention and treatment in seconds.
+      </p>
+      <div class="hero-stats a4">
+        <div><span class="hstat-num">47</span><span class="hstat-lbl">Disease Entries</span></div>
+        <div><span class="hstat-num">14</span><span class="hstat-lbl">Crop Types</span></div>
+        <div><span class="hstat-num">~97%</span><span class="hstat-lbl">Accuracy</span></div>
+      </div>
+      <p class="a5" style="font-size:.82rem;color:rgba(255,255,255,.35);font-style:italic;">
+        Scroll down to see supported crops · Tembeza chini kuona mazao
+      </p>
+    </div>
+
+    <div class="hero-card a3">
+      <div class="hcard-title">Scan a Crop Leaf</div>
+      <div class="hcard-sub">Upload a clear close-up photo · Pakia picha iliyo wazi</div>
+      <form action="/upload/" method="POST" enctype="multipart/form-data" id="uform">
+        <div class="dz" id="dz">
+          <input type="file" name="img" id="file-in" accept="image/png,image/jpeg,image/webp" required/>
+          <div id="dz-ph">
+            <div class="dz-circle">📷</div>
+            <div class="dz-p">Drop image here or click to browse</div>
+            <div class="dz-hint">JPG · PNG · WEBP &nbsp;·&nbsp; Max 16 MB</div>
+          </div>
+          <div id="preview-wrap">
+            <img id="img-preview" src="" alt="preview"/>
+            <div id="preview-name"></div>
+          </div>
+        </div>
+        <button type="submit" class="btn-analyse" id="go-btn">
+          <svg id="go-icon" width="17" height="17" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+          </svg>
+          <div class="ld" id="go-ld"></div>
+          <span id="go-lbl">Analyse · Changanua</span>
+        </button>
+      </form>
+      <div class="dz-tips">
+        <div class="dzt"><i>📏</i><s>Close-up</s></div>
+        <div class="dzt"><i>☀️</i><s>Good light</s></div>
+        <div class="dzt"><i>🎯</i><s>Show symptoms</s></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ SECTION 2: CROP CARDS ══ -->
+<section class="crops-section" id="crops">
+  <div class="cs-inner">
+    <div class="cs-header">
+      <div class="cs-eyebrow">Supported Crops · Mazao Yanayoungwa Mkono</div>
+      <h2 class="cs-h2">We Detect Diseases Across <span>14 Major Crops</span></h2>
+      <p class="cs-desc">From tomatoes to maize to legumes — our AI model is trained on thousands of labelled images across 14 crop types.</p>
+    </div>
+
+    <div class="crop-cards">
+
+      <!-- TOMATO -->
+      <div class="crop-card cc-tomato">
+        <div class="cc-visual">
+          <span class="cc-emoji">🍅</span>
+          <span class="cc-tag">9 Diseases</span>
+        </div>
+        <div class="cc-body">
+          <div class="cc-crop">Tomato · Nyanya</div>
+          <div class="cc-sub">The most common crop in our dataset — covers bacterial, fungal, viral and pest-related diseases.</div>
+          <div class="cc-diseases">
+            <span class="cc-pill">Early Blight</span>
+            <span class="cc-pill">Late Blight</span>
+            <span class="cc-pill">Leaf Mold</span>
+            <span class="cc-pill">Mosaic Virus</span>
+            <span class="cc-pill">Bacterial Spot</span>
+            <span class="cc-pill">+ 4 more</span>
+          </div>
+          <div class="cc-stat"><div class="cc-stat-dot"></div><span>9 disease classes including Healthy</span></div>
+        </div>
+      </div>
+
+      <!-- MAIZE -->
+      <div class="crop-card cc-maize">
+        <div class="cc-visual">
+          <span class="cc-emoji">🌽</span>
+          <span class="cc-tag">4 Diseases</span>
+        </div>
+        <div class="cc-body">
+          <div class="cc-crop">Maize · Mahindi</div>
+          <div class="cc-sub">Covers the most economically damaging fungal leaf diseases affecting maize yield across East Africa.</div>
+          <div class="cc-diseases">
+            <span class="cc-pill">Gray Leaf Spot</span>
+            <span class="cc-pill">Common Rust</span>
+            <span class="cc-pill">Northern Blight</span>
+            <span class="cc-pill">Healthy</span>
+          </div>
+          <div class="cc-stat"><div class="cc-stat-dot"></div><span>4 disease classes including Healthy</span></div>
+        </div>
+      </div>
+
+      <!-- LEGUMES / PEA -->
+      <div class="crop-card cc-pea">
+        <div class="cc-visual">
+          <span class="cc-emoji">🫛</span>
+          <span class="cc-tag">7 Diseases</span>
+        </div>
+        <div class="cc-body">
+          <div class="cc-crop">Legumes · Mikunde</div>
+          <div class="cc-sub">Includes Beans and Pigeon Pea — staple crops in Tanzania — with fungal, bacterial and viral diseases.</div>
+          <div class="cc-diseases">
+            <span class="cc-pill">Anthracnose</span>
+            <span class="cc-pill">Rust</span>
+            <span class="cc-pill">Angular Leaf Spot</span>
+            <span class="cc-pill">Sterility Mosaic</span>
+            <span class="cc-pill">+ 3 more</span>
+          </div>
+          <div class="cc-stat"><div class="cc-stat-dot"></div><span>7 disease classes including Healthy</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ SECTION 3: HOW IT WORKS ══ -->
+<section class="how-section" id="how">
+  <div class="how-inner">
+    <div class="how-header">
+      <div class="how-eyebrow">Simple Process · Mchakato Rahisi</div>
+      <h2 class="how-h2">How PHASAL Works</h2>
+      <p class="how-desc">Four simple steps from photo to full bilingual diagnosis — takes less than 10 seconds.</p>
+    </div>
+    <div class="steps">
+      <div class="step step-1">
+        <div class="step-num">📷<div class="step-badge">1</div></div>
+        <div class="step-title">Upload Photo</div>
+        <div class="step-body">Take a clear close-up of the affected leaf and upload it · Pakia picha iliyo wazi ya jani lililoathiriwa</div>
+      </div>
+      <div class="step step-2">
+        <div class="step-num">🤖<div class="step-badge">2</div></div>
+        <div class="step-title">AI Analyses</div>
+        <div class="step-body">EfficientNetB4 processes the image and identifies the disease with a confidence score · AI inachakata picha</div>
+      </div>
+      <div class="step step-3">
+        <div class="step-num">📋<div class="step-badge">3</div></div>
+        <div class="step-title">Get Diagnosis</div>
+        <div class="step-body">Receive disease name, symptoms, preventive measures and treatment recommendations · Pokea matokeo kamili</div>
+      </div>
+      <div class="step step-4">
+        <div class="step-num">🌍<div class="step-badge">4</div></div>
+        <div class="step-title">Bilingual Output</div>
+        <div class="step-body">Every result delivered in English and Kiswahili for full accessibility · Matokeo yote kwa lugha mbili</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ RESULT SECTION ══ -->
+{% if result %}
+{% set p     = prediction %}
+{% set pn    = p['name'] %}
+{% set isBg  = 'background' in pn.lower() %}
+{% set isHlt = 'healthy' in pn.lower() or 'Healthy' in pn %}
+{% set parts = pn.split('___') %}
+{% set crop_l = parts[0].replace('_',' ').replace(',','').strip() if parts|length > 1 else pn %}
+{% set dis_l  = parts[1].replace('_',' ').replace('-',' ').strip() if parts|length > 1 else pn %}
+{% set c = confidence %}
+{% set c_col  = 'var(--green-lt)' if c >= 80 else ('var(--gold)' if c >= 55 else 'var(--rust)') %}
+{% set c_en   = 'High Confidence' if c >= 80 else ('Moderate' if c >= 55 else 'Low — Retake Photo') %}
+{% set c_sw   = 'Uhakika wa Juu'  if c >= 80 else ('Wastani'   if c >= 55 else 'Chini — Piga Picha Tena') %}
+{% set c_icon = '✅' if c >= 80 else ('⚠️' if c >= 55 else '❌') %}
+
+<section class="result-zone" id="result">
+  <div class="rz-inner">
+
+    <div class="rz-topbar">
+      <div class="rz-diamond"></div>
+      <div class="rz-title">Diagnosis Result &nbsp;·&nbsp; Matokeo ya Uchunguzi</div>
+      <div class="rz-line"></div>
+    </div>
+
+    <div class="rz-grid">
+
+      <!-- Image + confidence card -->
+      <div class="ri-card">
+        <img src="{{ imagepath }}" alt="Uploaded leaf"/>
+        <div class="ri-body">
+          <div class="ri-lbl">Analysed Image · Picha Iliyochambuliwa</div>
+          {% if isBg %}
+            <span class="ri-pill" style="background:#fff3f0;border-color:#fbd0c0;color:var(--rust);">⚠️ No Plant</span>
+            <div class="ri-name-en">No Plant Detected</div>
+            <div class="ri-name-sw">Mmea Haukugunduliwa</div>
+          {% elif isHlt %}
+            <span class="ri-pill">🌿 {{ crop_l.title() }}</span>
+            <div class="ri-name-en" style="color:var(--green);">✅ {{ p['display_name']['en'] }}</div>
+            <div class="ri-name-sw">{{ p['display_name']['sw'] }}</div>
+          {% else %}
+            <span class="ri-pill">🌿 {{ crop_l.title() }}</span>
+            <div class="ri-name-en">{{ p['display_name']['en'] }}</div>
+            <div class="ri-name-sw">{{ p['display_name']['sw'] }}</div>
+          {% endif %}
+          <div class="conf">
+            <div class="conf-row">
+              <span class="conf-lbl">Confidence · Uhakika</span>
+              <span class="conf-pct" style="color:{{ c_col }};">{{ c }}%</span>
+            </div>
+            <div class="conf-track">
+              <div class="conf-fill" data-w="{{ c }}" style="background:{{ c_col }};"></div>
+            </div>
+            <div class="conf-badge" style="color:{{ c_col }};border-color:{{ c_col }}30;background:{{ c_col }}10;">
+              {{ c_icon }} {{ c_en }} · {{ c_sw }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result panels -->
+      <div class="rz-panels">
+
+        {% if isBg %}
+        <div class="status-card bg-nopl">
+          <span class="sc-icon">🖼️</span>
+          <div class="sc-en">No Plant Detected</div>
+          <div class="sc-sw">Mmea Haukugunduliwa</div>
+          <p class="sc-p">The image does not contain a recognisable crop leaf. Please upload a clear close-up of a leaf or plant part.</p>
+          <p class="sc-p-sw">Picha haina jani la zao linalotambuliwa. Tafadhali pakia picha iliyo wazi ya karibu ya jani.</p>
+        </div>
+
+        {% elif isHlt %}
+        <div class="status-card">
+          <span class="sc-icon">🌱</span>
+          <div class="sc-en">{{ p['display_name']['en'] }}</div>
+          <div class="sc-sw">{{ p['display_name']['sw'] }}</div>
+          <p class="sc-p">{{ p['symptoms']['en'] }}</p>
+          <p class="sc-p-sw">{{ p['symptoms']['sw'] }}</p>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <div class="ph-icon ico-prevent">🛡️</div>
+            <div><div class="ph-en">Preventive Measures</div><div class="ph-sw">Hatua za Kuzuia</div></div>
+          </div>
+          <div class="panel-body">
+            <div class="bi">
+              <div class="bi-row"><span class="ltag ltag-en">EN</span><p class="btext-en">{{ p['preventive_measures']['en'] }}</p></div>
+              <div class="bisep"></div>
+              <div class="bi-row"><span class="ltag ltag-sw">SW</span><p class="btext-sw">{{ p['preventive_measures']['sw'] }}</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="panel p-treat">
+          <div class="panel-head">
+            <div class="ph-icon ico-treat">💊</div>
+            <div><div class="ph-en">Recommendations</div><div class="ph-sw">Mapendekezo</div></div>
+          </div>
+          <div class="panel-body">
+            <div class="bi">
+              <div class="bi-row"><span class="ltag ltag-en">EN</span><p class="btext-en">{{ p['treatment']['en'] }}</p></div>
+              <div class="bisep"></div>
+              <div class="bi-row"><span class="ltag ltag-sw">SW</span><p class="btext-sw">{{ p['treatment']['sw'] }}</p></div>
+            </div>
+          </div>
+        </div>
+
+        {% else %}
+
+        <!-- 1. Disease Name -->
+        <div class="panel">
+          <div class="panel-head">
+            <div class="ph-icon ico-disease">🦠</div>
+            <div><div class="ph-en">Disease Identified · Ugonjwa Uliobainika</div></div>
+          </div>
+          <div class="panel-body">
+            <div style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:900;color:var(--charcoal);letter-spacing:-.02em;line-height:1.1;margin-bottom:.35rem;">{{ p['display_name']['en'] }}</div>
+            <div style="font-size:1rem;font-style:italic;color:var(--muted);margin-bottom:.6rem;">{{ p['display_name']['sw'] }}</div>
+            <code style="font-size:.72rem;color:var(--muted);background:var(--warm);padding:3px 8px;border-radius:5px;">{{ pn }}</code>
+          </div>
+        </div>
+
+        <!-- 2. Symptoms -->
+        <div class="panel">
+          <div class="panel-head">
+            <div class="ph-icon ico-symptoms">🔍</div>
+            <div><div class="ph-en">Symptoms</div><div class="ph-sw">Dalili za Ugonjwa</div></div>
+          </div>
+          <div class="panel-body">
+            <div class="bi">
+              <div class="bi-row"><span class="ltag ltag-en">EN</span><p class="btext-en">{{ p['symptoms']['en'] }}</p></div>
+              <div class="bisep"></div>
+              <div class="bi-row"><span class="ltag ltag-sw">SW</span><p class="btext-sw">{{ p['symptoms']['sw'] }}</p></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Preventive Measures -->
+        <div class="panel">
+          <div class="panel-head">
+            <div class="ph-icon ico-prevent">🛡️</div>
+            <div><div class="ph-en">Preventive Measures</div><div class="ph-sw">Hatua za Kuzuia</div></div>
+          </div>
+          <div class="panel-body">
+            <div class="bi">
+              <div class="bi-row"><span class="ltag ltag-en">EN</span><p class="btext-en">{{ p['preventive_measures']['en'] }}</p></div>
+              <div class="bisep"></div>
+              <div class="bi-row"><span class="ltag ltag-sw">SW</span><p class="btext-sw">{{ p['preventive_measures']['sw'] }}</p></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Treatment -->
+        <div class="panel p-treat">
+          <div class="panel-head">
+            <div class="ph-icon ico-treat">💊</div>
+            <div><div class="ph-en">Treatment Recommendations</div><div class="ph-sw">Mapendekezo ya Matibabu</div></div>
+          </div>
+          <div class="panel-body">
+            <div class="bi">
+              <div class="bi-row"><span class="ltag ltag-en">EN</span><p class="btext-en">{{ p['treatment']['en'] }}</p></div>
+              <div class="bisep"></div>
+              <div class="bi-row"><span class="ltag ltag-sw">SW</span><p class="btext-sw">{{ p['treatment']['sw'] }}</p></div>
+            </div>
+          </div>
+        </div>
+
+        {% endif %}
+
+        <div style="text-align:center;">
+          <a href="/" class="btn-again">← Diagnose Another · Changanua Zao Lingine</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-inner">
+    <div class="foot-brand">PHA<b>SAL</b></div>
+    <div class="foot-text">AI-powered plant disease recognition · English &amp; Kiswahili · © 2025</div>
+    <div class="foot-pill">47 Disease Entries · 14 Crops</div>
+  </div>
+</footer>
+
+<script>
+const fileIn  = document.getElementById('file-in');
+const dz      = document.getElementById('dz');
+const dzPh    = document.getElementById('dz-ph');
+const pvWrap  = document.getElementById('preview-wrap');
+const pvImg   = document.getElementById('img-preview');
+const pvName  = document.getElementById('preview-name');
+const form    = document.getElementById('uform');
+const goBtn   = document.getElementById('go-btn');
+const goIcon  = document.getElementById('go-icon');
+const goLd    = document.getElementById('go-ld');
+const goLbl   = document.getElementById('go-lbl');
+
+function showPreview(file) {
+  if (!file || !file.type.startsWith('image/')) return;
+  const r = new FileReader();
+  r.onload = e => {
+    pvImg.src = e.target.result;
+    pvName.textContent = file.name + ' · ' + (file.size / 1024).toFixed(0) + ' KB';
+    dzPh.style.display = 'none';
+    pvWrap.style.display = 'block';
+    dz.style.borderColor = 'var(--lime)';
+    dz.style.background  = 'rgba(124,184,66,.08)';
+  };
+  r.readAsDataURL(file);
+}
+
+fileIn.addEventListener('change', () => { if (fileIn.files[0]) showPreview(fileIn.files[0]); });
+
+['dragenter','dragover'].forEach(ev => dz.addEventListener(ev, e => { e.preventDefault(); dz.classList.add('over'); }));
+['dragleave','drop'].forEach(ev => dz.addEventListener(ev, e => { e.preventDefault(); dz.classList.remove('over'); }));
+dz.addEventListener('drop', e => { const f = e.dataTransfer.files[0]; if (f) { fileIn.files = e.dataTransfer.files; showPreview(f); } });
+
+form.addEventListener('submit', () => {
+  goLbl.textContent = 'Analysing... · Inachanua...';
+  goIcon.style.display = 'none';
+  goLd.style.display = 'block';
+  goBtn.disabled = true;
+  goBtn.style.opacity = '.8';
+});
+
+{% if result %}
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const el = document.getElementById('result');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 350);
+  setTimeout(() => {
+    document.querySelectorAll('.conf-fill').forEach(b => {
+      b.style.width = b.getAttribute('data-w') + '%';
+    });
+  }, 700);
+});
+{% endif %}
+</script>
+</body>
+</html>

@@ -1,0 +1,754 @@
+[
+  {
+    "name": "Apple___Apple_scab",
+    "display_name": { "en": "Apple Scab", "sw": "Ugonjwa wa Vipele vya Tofaa" },
+    "symptoms": {
+      "en": "Olive-green to brown velvety spots on leaves and fruit. Spots become dark and corky as they mature. Leaves may curl and drop prematurely. Fruit develops raised, rough corky lesions.",
+      "sw": "Madoa ya kijani-mzeituni hadi kahawia yenye laini kama velvet kwenye majani na matunda. Madoa yanakuwa meusi na magumu yanapoiva. Majani yanaweza kukunjamika na kuanguka mapema. Matunda huendeleza vidonda vya ukoko mgumu."
+    },
+    "preventive_measures": {
+      "en": "Plant resistant apple varieties. Remove and destroy fallen leaves. Prune trees to improve air circulation. Apply preventive fungicide sprays from bud break. Avoid overhead irrigation.",
+      "sw": "Panda aina za tofaa zinazostahimili ugonjwa. Ondoa na uharibu majani yaliyoanguka. Kata matawi ili kuboresha mzunguko wa hewa. Tumia dawa za kuua fangasi kinga tangu chipukizi linaonekana. Epuka umwagiliaji wa juu."
+    },
+    "treatment": {
+      "en": "Apply captan, myclobutanil or copper-based fungicides at first sign. Spray every 7–10 days during wet weather. Remove and collect all infected fruit and fallen leaves.",
+      "sw": "Tumia captan, myclobutanil au dawa za shaba wakati wa dalili za kwanza. Nyunyiza kila siku 7–10 wakati wa mvua. Ondoa na kukusanya matunda yote yaliyoambukizwa na majani yaliyoanguka."
+    }
+  },
+  {
+    "name": "Apple___Black_rot",
+    "display_name": { "en": "Apple Black Rot", "sw": "Kuoza Nyeusi kwa Tofaa" },
+    "symptoms": {
+      "en": "Circular brown spots with purple margins on leaves (frog-eye leaf spot). Fruit shows black mummified rot beginning at the calyx end. Dark sunken cankers appear on branches.",
+      "sw": "Madoa ya mviringo ya kahawia yenye mipaka ya zambarau kwenye majani. Matunda yanaonyesha kuoza nyeusi kuanzia sehemu ya chini. Vidonda vya giza vilivyozama vinaonekana kwenye matawi."
+    },
+    "preventive_measures": {
+      "en": "Prune out dead and diseased branches. Remove mummified fruit from trees and ground. Apply protective fungicides from pink stage through harvest. Avoid wounding bark during cultivation.",
+      "sw": "Kata matawi yaliyokufa na yaliyoathiriwa. Ondoa matunda yaliyokauka kutoka kwa miti na ardhini. Tumia dawa za kinga kuanzia hatua ya rangi ya pink hadi mavuno. Epuka kuumiza gome wakati wa kulima."
+    },
+    "treatment": {
+      "en": "Apply thiophanate-methyl or captan fungicide sprays. Cut out cankers to healthy wood and treat wounds. Remove and destroy all infected fruit. Repeat sprays every 10–14 days.",
+      "sw": "Tumia thiophanate-methyl au captan kwenye dawa za kuua fangasi. Kata vidonda hadi kwenye mbao yenye afya na tibu majeraha. Ondoa na uharibu matunda yote yaliyoathirika. Rudia kunyunyiza kila siku 10–14."
+    }
+  },
+  {
+    "name": "Apple___Cedar_apple_rust",
+    "display_name": { "en": "Cedar Apple Rust", "sw": "Kutu ya Mti wa Mierezi na Tofaa" },
+    "symptoms": {
+      "en": "Bright orange-yellow spots on upper leaf surface in spring. Tube-like spore structures on the underside of leaves. Infected fruit shows distorted orange lesions. Severe infection causes premature leaf drop.",
+      "sw": "Madoa ya njano-machungwa kwenye uso wa juu wa majani wakati wa masika. Miundo ya mirija ya mbegu kwenye upande wa chini wa majani. Matunda yaliyoathirika yanaonyesha vidonda vya machungwa vilivyopotoka. Maambukizi makali husababisha majani kuanguka mapema."
+    },
+    "preventive_measures": {
+      "en": "Plant rust-resistant apple varieties. Remove nearby juniper and cedar trees where possible. Apply protective fungicide sprays at pink bud through petal fall. Avoid planting apples near eastern red cedar.",
+      "sw": "Panda aina za tofaa zinazostahimili kutu. Ondoa miti ya juniper na mierezi iliyo karibu iwezekanavyo. Tumia dawa za kinga kuanzia chipukizi la pink hadi petali zinapoanguka. Epuka kupanda tofaa karibu na mti wa mierezi mwekundu."
+    },
+    "treatment": {
+      "en": "Apply myclobutanil, triadimefon or mancozeb fungicide at first sign. Spray every 7–10 days during infection periods. Remove orange galls from nearby junipers before they release spores.",
+      "sw": "Tumia myclobutanil, triadimefon au mancozeb wakati wa dalili za kwanza. Nyunyiza kila siku 7–10 wakati wa kipindi cha maambukizi. Ondoa vifundo vya machungwa kutoka kwa miti ya juniper kabla havijaachilia mbegu."
+    }
+  },
+  {
+    "name": "Apple___healthy",
+    "display_name": { "en": "Healthy Apple", "sw": "Tofaa Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Leaves are green, firm and unblemished. Fruit develops normally with no lesions.",
+      "sw": "Hakuna dalili za ugonjwa. Majani ni ya kijani, imara na bila madoa. Matunda yanakua kawaida bila vidonda."
+    },
+    "preventive_measures": {
+      "en": "Continue regular monitoring for early disease signs. Maintain balanced NPK fertilisation. Prune annually to maintain good air circulation.",
+      "sw": "Endelea na ufuatiliaji wa mara kwa mara kwa dalili za mapema za ugonjwa. Dumisha urutubishaji wa NPK ulio na usawa. Kata matawi kila mwaka ili kudumisha mzunguko mzuri wa hewa."
+    },
+    "treatment": {
+      "en": "No treatment needed. Maintain current orchard management practices.",
+      "sw": "Hakuna matibabu yanayohitajika. Dumisha mazoea ya sasa ya usimamizi wa bustani."
+    }
+  },
+  {
+    "name": "Background_without_leaves",
+    "display_name": { "en": "No Plant Detected", "sw": "Mmea Haukugunduliwa" },
+    "symptoms": {
+      "en": "No plant or leaf was detected in the uploaded image. The AI could not identify any crop.",
+      "sw": "Hakuna mmea au jani lililotambuliwa kwenye picha iliyopakiwa. AI haikuweza kutambua zao lolote."
+    },
+    "preventive_measures": {
+      "en": "Please upload a clear close-up photo of a crop leaf showing the affected area.",
+      "sw": "Tafadhali pakia picha iliyo wazi ya karibu ya jani la zao inayoonyesha eneo lililoathiriwa."
+    },
+    "treatment": {
+      "en": "Not applicable. Try again with a clearer image of a leaf.",
+      "sw": "Haihusiki. Jaribu tena na picha iliyo wazi zaidi ya jani."
+    }
+  },
+  {
+    "name": "Blueberry___healthy",
+    "display_name": { "en": "Healthy Blueberry", "sw": "Blueberry Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Plant shows normal vigorous growth with healthy green foliage.",
+      "sw": "Hakuna dalili za ugonjwa. Mmea unaonyesha ukuaji wa kawaida wenye nguvu na majani ya kijani yenye afya."
+    },
+    "preventive_measures": {
+      "en": "Maintain soil pH between 4.5 and 5.5. Mulch around plants to retain moisture. Monitor regularly for early disease signs.",
+      "sw": "Dumisha pH ya udongo kati ya 4.5 na 5.5. Weka matandazo karibu na mimea ili kuhifadhi unyevu. Fuatilia mara kwa mara kwa dalili za mapema za ugonjwa."
+    },
+    "treatment": {
+      "en": "No treatment needed. Continue current management.",
+      "sw": "Hakuna matibabu yanayohitajika. Endelea na usimamizi wa sasa."
+    }
+  },
+  {
+    "name": "Cherry___Powdery_mildew",
+    "display_name": { "en": "Cherry Powdery Mildew", "sw": "Ukungu wa Unga wa Cherri" },
+    "symptoms": {
+      "en": "White powdery fungal coating on young leaves, shoots and fruit. Infected leaves curl upward and may become distorted. New growth is most severely affected. Fruit may develop a russetted surface.",
+      "sw": "Mipako nyeupe ya ukungu kama unga kwenye majani machanga, machipuko na matunda. Majani yaliyoathirika yanakunjamika juu na yanaweza kupotoka. Ukuaji mpya ndio unaoathiriwa zaidi. Matunda yanaweza kuendeleza uso wenye rangi ya hudhurungi."
+    },
+    "preventive_measures": {
+      "en": "Plant resistant cherry varieties. Prune trees to open the canopy and improve air flow. Avoid excessive nitrogen fertilisation. Apply preventive sulphur sprays. Monitor new growth closely in spring.",
+      "sw": "Panda aina za cherri zinazostahimili. Kata matawi ili kufungua dari na kuboresha mtiririko wa hewa. Epuka urutubishaji mwingi wa nitrojeni. Tumia dawa za sulphur kinga. Fuatilia ukuaji mpya kwa makini wakati wa masika."
+    },
+    "treatment": {
+      "en": "Apply sulphur-based fungicide, trifloxystrobin or myclobutanil. Spray every 10–14 days while symptoms persist. Remove and destroy heavily infected shoots.",
+      "sw": "Tumia dawa za sulphur, trifloxystrobin au myclobutanil. Nyunyiza kila siku 10–14 wakati dalili zinaendelea. Ondoa na uharibu machipuko yaliyoathirika sana."
+    }
+  },
+  {
+    "name": "Cherry___healthy",
+    "display_name": { "en": "Healthy Cherry", "sw": "Cherri Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Leaves are deep green and unblemished. Tree shows normal growth.",
+      "sw": "Hakuna dalili za ugonjwa. Majani ni ya kijani kirefu na bila madoa. Mti unaonyesha ukuaji wa kawaida."
+    },
+    "preventive_measures": {
+      "en": "Prune annually to maintain good canopy structure. Apply balanced fertiliser in early spring. Monitor for pests and diseases throughout the growing season.",
+      "sw": "Kata matawi kila mwaka ili kudumisha muundo mzuri wa dari. Tumia mbolea iliyosawazishwa mapema majira ya masika. Fuatilia wadudu na magonjwa wakati wote wa msimu wa ukuaji."
+    },
+    "treatment": {
+      "en": "No treatment needed.",
+      "sw": "Hakuna matibabu yanayohitajika."
+    }
+  },
+  {
+    "name": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
+    "display_name": { "en": "Corn Gray Leaf Spot", "sw": "Madoa ya Kijivu ya Mahindi" },
+    "symptoms": {
+      "en": "Long rectangular grey to tan lesions with parallel edges running along leaf veins. Lesions are 5–25mm long, bounded by leaf veins. Disease progresses from lower to upper leaves. Severe infection gives a blighted scorched appearance.",
+      "sw": "Vidonda virefu vya mstatili vya kijivu hadi njano-kahawia vyenye pande sambamba vinavyokwenda kando ya mishipa ya majani. Vidonda vina urefu wa 5–25mm, vimezungushiwa na mishipa ya majani. Ugonjwa unaendelea kutoka majani ya chini hadi ya juu. Maambukizi makali hutoa mwonekano wa kuchomwa."
+    },
+    "preventive_measures": {
+      "en": "Plant resistant hybrid varieties. Rotate corn with non-host crops for at least one year. Till crop residue after harvest to reduce inoculum. Improve field drainage and plant spacing.",
+      "sw": "Panda aina za mseto zinazostahimili. Zungusha mahindi na mazao yasiyo ya mwenyeji kwa angalau mwaka mmoja. Lima mabaki ya mazao baada ya mavuno ili kupunguza chanzo cha ugonjwa. Boresha mifereji ya shamba na nafasi za kupanda."
+    },
+    "treatment": {
+      "en": "Apply foliar fungicides (azoxystrobin, pyraclostrobin) at tasselling stage. Fungicide is most effective when disease starts on lower leaves. Repeat application after 14–21 days if conditions remain favourable.",
+      "sw": "Tumia dawa za kuua fangasi (azoxystrobin, pyraclostrobin) wakati wa hatua ya nywele. Dawa ni bora zaidi wakati ugonjwa unaanza kwenye majani ya chini. Rudia matumizi baada ya siku 14–21 ikiwa hali bado zinafaa."
+    }
+  },
+  {
+    "name": "Corn___Common_rust",
+    "display_name": { "en": "Corn Common Rust", "sw": "Kutu ya Kawaida ya Mahindi" },
+    "symptoms": {
+      "en": "Small oval to elongated brick-red to brown powdery pustules on both leaf surfaces. Pustules turn dark brown to black as the season progresses. Severely infected leaves yellow and dry out. Heavy infections reduce grain filling and yield.",
+      "sw": "Vipele vidogo vya mviringo hadi virefu vya rangi ya tofaa-nyekundu hadi kahawia vilivyo kama unga kwenye pande zote mbili za majani. Vipele vinageuka kahawia nyeusi kadri msimu unavyoendelea. Majani yaliyoathirika sana yanageuka njano na kukauka. Maambukizi mazito hupunguza ujazaji wa nafaka na mavuno."
+    },
+    "preventive_measures": {
+      "en": "Plant rust-resistant hybrid varieties. Plant early to avoid peak rust season. Balanced nitrogen fertilisation reduces susceptibility. Monitor fields regularly from tasselling stage.",
+      "sw": "Panda aina za mseto zinazostahimili kutu. Panda mapema ili kuepuka kilele cha msimu wa kutu. Urutubishaji wa nitrojeni ulio na usawa hupunguza uathirivu. Fuatilia mashamba mara kwa mara kuanzia hatua ya nywele."
+    },
+    "treatment": {
+      "en": "Apply azoxystrobin, propiconazole or trifloxystrobin fungicide. Spray at early infection stage before pustules rupture. A single well-timed application is often sufficient for mild infection.",
+      "sw": "Tumia azoxystrobin, propiconazole au trifloxystrobin. Nyunyiza katika hatua ya mapema ya maambukizi kabla vipele havijapasuka. Matumizi moja yaliyopangwa vizuri mara nyingi yanatosha kwa maambukizi ya wastani."
+    }
+  },
+  {
+    "name": "Corn___Northern_Leaf_Blight",
+    "display_name": { "en": "Corn Northern Leaf Blight", "sw": "Ugonjwa wa Majani ya Mahindi ya Kaskazini" },
+    "symptoms": {
+      "en": "Long cigar-shaped greyish-green to tan lesions 5–15cm long. Lesions have wavy margins. Disease begins on lower leaves and moves upward. Severe infection can blight the entire upper canopy before grain fill.",
+      "sw": "Vidonda virefu vya umbo la sigara vya kijani-kijivu hadi njano-kahawia vya urefu wa 5–15cm. Vidonda vina mipaka iliyopinda. Ugonjwa unaanza kwenye majani ya chini na kusonga juu. Maambukizi makali yanaweza kuangamiza dari yote ya juu kabla ya kujaza nafaka."
+    },
+    "preventive_measures": {
+      "en": "Use resistant hybrid varieties as the primary prevention strategy. Practise crop rotation. Destroy maize stubble after harvest. Plant at recommended density to maximise air circulation.",
+      "sw": "Tumia aina za mseto zinazostahimili kama mkakati wa msingi wa kinga. Fanya mzunguko wa mazao. Haribu mabaki ya mahindi baada ya mavuno. Panda kwa msongamano unaopendekezwa ili kuongeza mzunguko wa hewa."
+    },
+    "treatment": {
+      "en": "Apply azoxystrobin, propiconazole or tebuconazole fungicide. Time application at first disease sign before it reaches upper leaves. Repeat every 14 days in high disease pressure conditions.",
+      "sw": "Tumia azoxystrobin, propiconazole au tebuconazole. Panga matumizi wakati wa dalili za kwanza za ugonjwa kabla haujafika majani ya juu. Rudia kila siku 14 katika hali za shinikizo kubwa la ugonjwa."
+    }
+  },
+  {
+    "name": "Corn___healthy",
+    "display_name": { "en": "Healthy Corn", "sw": "Mahindi Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Leaves are dark green and vigorous. Plant shows normal growth and development.",
+      "sw": "Hakuna dalili za ugonjwa. Majani ni ya kijani giza na yenye nguvu. Mmea unaonyesha ukuaji na maendeleo ya kawaida."
+    },
+    "preventive_measures": {
+      "en": "Continue regular field scouting every 5–7 days. Maintain soil fertility with balanced NPK. Ensure proper plant population and spacing.",
+      "sw": "Endelea na ukaguzi wa kawaida wa shamba kila siku 5–7. Dumisha rutuba ya udongo na NPK iliyosawazishwa. Hakikisha idadi sahihi ya mimea na nafasi."
+    },
+    "treatment": {
+      "en": "No treatment needed. Continue monitoring.",
+      "sw": "Hakuna matibabu yanayohitajika. Endelea kufuatilia."
+    }
+  },
+  {
+    "name": "Grape___Black_rot",
+    "display_name": { "en": "Grape Black Rot", "sw": "Kuoza Nyeusi kwa Zabibu" },
+    "symptoms": {
+      "en": "Small reddish-brown circular spots on leaves with dark borders and tiny black pycnidia in centres. Infected berries shrivel and turn black and mummified. Shoots develop dark elongated lesions.",
+      "sw": "Madoa madogo ya kahawia-nyekundu ya mviringo kwenye majani yenye mipaka meusi na vipele vidogo vyeusi vya pycnidia katikati. Zabibu zilizoathirika zinakauka na kugeuka nyeusi na kukauka. Machipuko huendeleza vidonda virefu vya giza."
+    },
+    "preventive_measures": {
+      "en": "Remove and destroy mummified berries and infected canes. Prune to open canopy for air circulation. Begin protective fungicide sprays at early shoot growth. Avoid wetting foliage.",
+      "sw": "Ondoa na uharibu zabibu zilizokauka na matawi yaliyoathirika. Kata ili kufungua dari kwa mzunguko wa hewa. Anza kunyunyiza dawa za kinga mapema wakati wa ukuaji wa machipuko. Epuka kulowanisha majani."
+    },
+    "treatment": {
+      "en": "Apply myclobutanil, mancozeb or captan fungicide from early shoot growth. Spray every 7–10 days through bloom and early fruit development. Remove all mummified berries.",
+      "sw": "Tumia myclobutanil, mancozeb au captan mapema wakati wa ukuaji wa machipuko. Nyunyiza kila siku 7–10 wakati wa maua na ukuaji wa mapema wa matunda. Ondoa zabibu zote zilizokauka."
+    }
+  },
+  {
+    "name": "Grape___Esca_(Black_Measles)",
+    "display_name": { "en": "Grape Black Measles (Esca)", "sw": "Surua Nyeusi ya Zabibu (Esca)" },
+    "symptoms": {
+      "en": "Interveinal chlorosis and necrosis on leaves showing a tiger stripe pattern. Small dark spots with lighter halos on berries. Affected berries may crack or shrivel. Internal wood shows dark streaking when cut.",
+      "sw": "Chlorosis na necrosis kati ya mishipa kwenye majani inayoonyesha mpangilio wa mistari ya chui. Madoa madogo meusi yenye halos nyepesi kwenye zabibu. Zabibu zilizoathirika zinaweza kupasuka au kukauka. Mbao za ndani zinaonyesha mistari meusi zinapokatwa."
+    },
+    "preventive_measures": {
+      "en": "Avoid large pruning wounds. Paint pruning wounds with fungicidal paste immediately after cutting. Remove and destroy infected wood. Disinfect pruning tools between vines.",
+      "sw": "Epuka majeraha makubwa ya kukata matawi. Piga rangi ya dawa kwenye majeraha ya kukata mara moja baada ya kukata. Ondoa na uharibu mbao zilizoathirika. Disinfect zana za kukata kati ya mzabibu and mzabibu."
+    },
+    "treatment": {
+      "en": "No cure for established infections. Remove and burn heavily infected canes. Maintain vine health through proper nutrition and irrigation. Consider vine surgery for high-value vines.",
+      "sw": "Hakuna tiba kwa maambukizi yaliyoimara. Ondoa na choma matawi yaliyoathirika sana. Dumisha afya ya mzabibu kupitia lishe na umwagiliaji sahihi. Fikiria upasuaji wa mzabibu kwa mizabibu yenye thamani."
+    }
+  },
+  {
+    "name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "display_name": { "en": "Grape Leaf Blight", "sw": "Blight ya Majani ya Zabibu" },
+    "symptoms": {
+      "en": "Large irregular brown to reddish-brown blighted areas on leaves. Lesions often start at leaf margins and tips. White fungal growth may appear on undersides in humid conditions. Severely affected leaves drop prematurely.",
+      "sw": "Maeneo makubwa yasiyo ya kawaida ya kahawia hadi kahawia-nyekundu yaliyoathirika kwenye majani. Vidonda mara nyingi vinaanza kwenye kingo na ncha za majani. Ukuaji wa ukungu mweupe unaweza kuonekana kwenye upande wa chini katika hali ya unyevu. Majani yaliyoathirika sana huanguka mapema."
+    },
+    "preventive_measures": {
+      "en": "Improve canopy ventilation through leaf removal and shoot thinning. Avoid overhead irrigation. Apply preventive fungicide sprays during wet weather. Remove and destroy infected leaf debris.",
+      "sw": "Boresha uingizaji hewa wa dari kupitia kuondoa majani na kupunguza machipuko. Epuka umwagiliaji wa juu. Tumia dawa za kinga wakati wa mvua. Ondoa na uharibu mabaki ya majani yaliyoathirika."
+    },
+    "treatment": {
+      "en": "Apply copper hydroxide, mancozeb or cymoxanil fungicide. Spray every 7–10 days during wet conditions. Remove heavily infected leaves and destroy them. Improve air flow around vines through pruning.",
+      "sw": "Tumia copper hydroxide, mancozeb au cymoxanil. Nyunyiza kila siku 7–10 katika hali ya mvua. Ondoa majani yaliyoathirika sana na uharibu. Boresha mtiririko wa hewa karibu na mizabibu kupitia kukata matawi."
+    }
+  },
+  {
+    "name": "Grape___healthy",
+    "display_name": { "en": "Healthy Grape", "sw": "Zabibu Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Leaves are deep green and unblemished. Vine shows vigorous normal growth.",
+      "sw": "Hakuna dalili za ugonjwa. Majani ni ya kijani giza na bila madoa. Mzabibu unaonyesha ukuaji wa kawaida wenye nguvu."
+    },
+    "preventive_measures": {
+      "en": "Prune annually to maintain open canopy structure. Monitor for early disease signs throughout the growing season. Maintain balanced vine nutrition.",
+      "sw": "Kata matawi kila mwaka ili kudumisha muundo wa dari ulio wazi. Fuatilia dalili za mapema za ugonjwa wakati wote wa msimu wa ukuaji. Dumisha lishe iliyosawazishwa ya mzabibu."
+    },
+    "treatment": {
+      "en": "No treatment needed.",
+      "sw": "Hakuna matibabu yanayohitajika."
+    }
+  },
+  {
+    "name": "Orange___Haunglongbing_(Citrus_greening)",
+    "display_name": { "en": "Citrus Greening (Huanglongbing)", "sw": "Ugonjwa wa Kijani wa Machungwa (HLB)" },
+    "symptoms": {
+      "en": "Asymmetric yellowing (blotchy mottle) of leaves that does not follow normal patterns. Small lopsided fruit that stays green and bitter. Shoots die back from the tips. Heavily infected trees decline progressively and die within years.",
+      "sw": "Uchano usio na usawa (mottling ya madoa) ya majani ambao haifuati mifumo ya kawaida. Matunda madogo yasiyosawazishwa yanayobaki kijani na machungu. Machipuko hufa kuanzia ncha. Miti iliyoathirika sana inaendelea kudorora na kufa ndani ya miaka."
+    },
+    "preventive_measures": {
+      "en": "Use certified disease-free nursery planting material. Control Asian citrus psyllid with systemic insecticides. Remove and destroy infected trees immediately. Install reflective mulches to deter psyllid.",
+      "sw": "Tumia nyenzo za upanzi wa nursery zilizoidhinishwa zisizo na ugonjwa. Dhibiti psyllid ya machungwa ya Asia na wadudu wa kimfumo. Ondoa na uharibu miti iliyoathirika mara moja. Weka matandazo ya kuakisi ili kuzuia psyllid."
+    },
+    "treatment": {
+      "en": "There is no cure for HLB. Infected trees must be removed and destroyed. Apply systemic insecticides to control psyllid vectors. Trunk injection of oxytetracycline can temporarily reduce symptoms.",
+      "sw": "Hakuna tiba kwa HLB. Miti iliyoambukizwa lazima iondolewe na kuharibiwa. Tumia wadudu wa kimfumo kudhibiti vienezaji vya psyllid. Sindano ya trunk ya oxytetracycline inaweza kupunguza dalili kwa muda."
+    }
+  },
+  {
+    "name": "Peach___Bacterial_spot",
+    "display_name": { "en": "Peach Bacterial Spot", "sw": "Madoa ya Bakteria ya Persiku" },
+    "symptoms": {
+      "en": "Small water-soaked spots on leaves that turn brown with yellow halos. Spots have an angular shape confined by leaf veins. Infected leaves drop early causing severe defoliation. Fruit develops dark sunken cracked lesions reducing quality.",
+      "sw": "Madoa madogo yaliyoloweshwa na maji kwenye majani yanayogeuka kahawia yenye halos za njano. Madoa yana umbo la pembe iliyozuiwa na mishipa ya majani. Majani yaliyoathirika huanguka mapema na kusababisha kupotea kwa majani kwa kiasi kikubwa. Matunda huendeleza vidonda vya giza vilivyozama na kupasuka."
+    },
+    "preventive_measures": {
+      "en": "Plant resistant peach varieties. Avoid overhead irrigation to reduce leaf wetness. Prune to open canopy and improve air circulation. Apply copper-based bactericide sprays during dormancy.",
+      "sw": "Panda aina za persiku zinazostahimili. Epuka umwagiliaji wa juu ili kupunguza unyevu wa majani. Kata matawi ili kufungua dari na kuboresha mzunguko wa hewa. Tumia dawa za bactericide za shaba wakati wa usingizi."
+    },
+    "treatment": {
+      "en": "Apply copper hydroxide or copper sulphate sprays at first sign. Spray every 7–10 days during wet weather through fruit development. Oxytetracycline sprays can be effective. Remove and destroy heavily infected fruit and leaves.",
+      "sw": "Tumia copper hydroxide au copper sulphate wakati wa dalili za kwanza. Nyunyiza kila siku 7–10 wakati wa mvua hadi ukuaji wa matunda. Dawa za oxytetracycline zinaweza kuwa na ufanisi. Ondoa na uharibu matunda na majani yaliyoathirika sana."
+    }
+  },
+  {
+    "name": "Peach___healthy",
+    "display_name": { "en": "Healthy Peach", "sw": "Persiku Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Leaves are healthy green and firm. Tree shows normal vigorous growth.",
+      "sw": "Hakuna dalili za ugonjwa. Majani ni ya kijani yenye afya na imara. Mti unaonyesha ukuaji wa kawaida wenye nguvu."
+    },
+    "preventive_measures": {
+      "en": "Apply dormant copper spray annually before bud break. Prune to maintain open vase shape for air circulation. Monitor for pest and disease signs throughout the season.",
+      "sw": "Tumia dawa ya shaba ya kulala mara moja kwa mwaka kabla ya chipukizi kuvunjika. Kata matawi ili kudumisha umbo la chombo wazi kwa mzunguko wa hewa. Fuatilia ishara za wadudu na magonjwa wakati wote wa msimu."
+    },
+    "treatment": {
+      "en": "No treatment needed.",
+      "sw": "Hakuna matibabu yanayohitajika."
+    }
+  },
+  {
+    "name": "Pepper,_bell___Bacterial_spot",
+    "display_name": { "en": "Pepper Bacterial Spot", "sw": "Madoa ya Bakteria ya Pilipili" },
+    "symptoms": {
+      "en": "Small water-soaked circular to irregular spots on leaves turning brown. Spots have yellow halos. Leaves turn yellow and drop. Raised scabby lesions on fruit reduce marketability. Severely infected plants may defoliate almost completely.",
+      "sw": "Madoa madogo yaliyoloweshwa na maji ya mviringo hadi yasiyo ya kawaida kwenye majani yanayogeuka kahawia. Madoa yana halos za njano. Majani yanageuka njano na kuanguka. Vidonda vya ukoko vilivyoinuliwa kwenye matunda hupunguza uuzaji. Mimea iliyoathirika sana inaweza kupoteza majani karibu yote."
+    },
+    "preventive_measures": {
+      "en": "Use certified disease-free seed and transplants. Rotate peppers with non-solanaceous crops for 2–3 years. Avoid overhead irrigation. Apply copper-based bactericide sprays preventively.",
+      "sw": "Tumia mbegu na miche iliyoidhinishwa isiyo na ugonjwa. Zungusha pilipili na mazao yasiyo ya familia ya solanaceous kwa miaka 2–3. Epuka umwagiliaji wa juu. Tumia dawa za bactericide za shaba kwa kinga."
+    },
+    "treatment": {
+      "en": "Apply copper hydroxide or copper sulphate plus mancozeb sprays. Spray every 5–7 days during warm wet weather. Remove and destroy heavily infected plant material. Avoid excessive nitrogen fertilisation.",
+      "sw": "Tumia copper hydroxide au copper sulphate pamoja na mancozeb. Nyunyiza kila siku 5–7 wakati wa hali ya joto na mvua. Ondoa na uharibu nyenzo za mmea zilizoathirika sana. Epuka urutubishaji mwingi wa nitrojeni."
+    }
+  },
+  {
+    "name": "Pepper,_bell___healthy",
+    "display_name": { "en": "Healthy Pepper", "sw": "Pilipili Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Plant shows normal vigorous growth with healthy green foliage and developing fruit.",
+      "sw": "Hakuna dalili za ugonjwa. Mmea unaonyesha ukuaji wa kawaida wenye nguvu na majani ya kijani yenye afya na matunda yanayoendelea."
+    },
+    "preventive_measures": {
+      "en": "Continue regular monitoring. Maintain consistent irrigation avoiding leaf wetness. Use crop rotation to prevent soil pathogen build-up.",
+      "sw": "Endelea kufuatilia mara kwa mara. Dumisha umwagiliaji wa kawaida ukiepuka unyevu wa majani. Tumia mzunguko wa mazao ili kuzuia mkusanyiko wa vimelea vya udongo."
+    },
+    "treatment": {
+      "en": "No treatment needed.",
+      "sw": "Hakuna matibabu yanayohitajika."
+    }
+  },
+  {
+    "name": "Potato___Early_blight",
+    "display_name": { "en": "Potato Early Blight", "sw": "Blight ya Mapema ya Viazi" },
+    "symptoms": {
+      "en": "Dark brown spots with concentric rings (target pattern) on older lower leaves first. Yellow halo surrounds each lesion. Infected leaves turn yellow and drop prematurely. Lesions may appear on stems and tuber surfaces.",
+      "sw": "Madoa ya kahawia meusi yenye pete za mduara (mpangilio wa shabaha) kwenye majani ya zamani ya chini kwanza. Halos ya njano inazunguka kila kidonda. Majani yaliyoathirika yanageuka njano na kuanguka mapema. Vidonda vinaweza kuonekana kwenye mashina na nyuso za viazi."
+    },
+    "preventive_measures": {
+      "en": "Rotate crops — avoid potatoes in the same field for 2–3 years. Remove and destroy infected plant debris after harvest. Plant certified disease-free seed potatoes. Avoid overhead irrigation. Ensure adequate plant spacing for good air circulation.",
+      "sw": "Zungusha mazao — epuka viazi kwenye shamba moja kwa miaka 2–3. Ondoa na uharibu mabaki ya mmea yaliyoathirika baada ya mavuno. Panda viazi vya mbegu vilivyoidhinishwa visivyo na ugonjwa. Epuka umwagiliaji wa juu. Hakikisha nafasi ya kutosha ya mmea kwa mzunguko mzuri wa hewa."
+    },
+    "treatment": {
+      "en": "Apply copper-based fungicide (Copper Oxychloride) at first sign. Use chlorothalonil or mancozeb fungicide every 7–10 days in wet weather. Remove and destroy heavily infected leaves. Apply potassium-rich fertiliser to boost plant immunity.",
+      "sw": "Tumia dawa za shaba (Copper Oxychloride) wakati wa dalili za kwanza. Tumia chlorothalonil au mancozeb kila siku 7–10 wakati wa mvua. Ondoa na uharibu majani yaliyoathirika sana. Tumia mbolea tajiri ya potasiamu ili kuimarisha kinga ya mmea."
+    }
+  },
+  {
+    "name": "Potato___Late_blight",
+    "display_name": { "en": "Potato Late Blight", "sw": "Blight ya Marehemu ya Viazi" },
+    "symptoms": {
+      "en": "Water-soaked pale green to brown lesions on leaves rapidly turning dark brown. White mouldy growth on leaf undersides in humid conditions. Dark greasy-looking patches on stems. Brown firm rot on tubers with reddish-brown discolouration inside.",
+      "sw": "Vidonda vya kijani hafifu hadi kahawia vilivyoloweshwa na maji kwenye majani vinavyogeuka kahawia nyeusi kwa haraka. Ukuaji wa ukungu mweupe kwenye upande wa chini wa majani katika hali ya unyevu. Maeneo ya giza yenye mwonekano wa mafuta kwenye mashina. Kuoza kwa kahawia imara kwenye viazi yenye rangi ya kahawia-nyekundu ndani."
+    },
+    "preventive_measures": {
+      "en": "Plant resistant potato varieties when available. Avoid planting in low-lying poorly drained areas. Destroy volunteer potato plants and cull piles. Apply preventive fungicide sprays before disease onset. Hill soil around plants to protect tubers.",
+      "sw": "Panda aina za viazi zinazostahimili zinapopatikana. Epuka kupanda katika maeneo ya chini yenye mifereji mibaya. Haribu mimea ya viazi isiyotarajiwa na marundo ya kukata. Tumia dawa za kinga za kuua fangasi kabla ya kuanza kwa ugonjwa. Panda udongo karibu na mimea ili kulinda viazi."
+    },
+    "treatment": {
+      "en": "Apply systemic fungicides with metalaxyl or cymoxanil immediately upon detection. Alternate between fungicide classes to prevent resistance. Remove and destroy all infected plant material. Harvest tubers promptly once disease appears. Ensure tubers are completely dry before storing.",
+      "sw": "Tumia dawa za mfumo za kuua fangasi yenye metalaxyl au cymoxanil mara moja zinapogunduliwa. Badilisha kati ya aina za dawa za kuua fangasi ili kuzuia upinzani. Ondoa na uharibu nyenzo zote za mmea zilizoathirika. Vuna viazi haraka mara tu ugonjwa unaonekana. Hakikisha viazi vimekauka kabisa kabla ya kuhifadhi."
+    }
+  },
+  {
+    "name": "Potato___healthy",
+    "display_name": { "en": "Healthy Potato", "sw": "Viazi Vyenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Leaves are healthy dark green and vigorous. Plant shows normal growth.",
+      "sw": "Hakuna dalili za ugonjwa. Majani ni ya kijani giza yenye afya na yenye nguvu. Mmea unaonyesha ukuaji wa kawaida."
+    },
+    "preventive_measures": {
+      "en": "Continue regular monitoring every 3–5 days. Maintain balanced fertilisation. Ensure consistent irrigation without waterlogging.",
+      "sw": "Endelea kufuatilia mara kwa mara kila siku 3–5. Dumisha urutubishaji uliosawazishwa. Hakikisha umwagiliaji wa kawaida bila mafuriko."
+    },
+    "treatment": {
+      "en": "No treatment needed. Maintain current care routine.",
+      "sw": "Hakuna matibabu yanayohitajika. Dumisha utaratibu wa sasa wa utunzaji."
+    }
+  },
+  {
+    "name": "Raspberry___healthy",
+    "display_name": { "en": "Healthy Raspberry", "sw": "Raspberri Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Canes are healthy with vibrant green foliage.",
+      "sw": "Hakuna dalili za ugonjwa. Matawi ni yenye afya na majani ya kijani yenye nguvu."
+    },
+    "preventive_measures": {
+      "en": "Remove old fruiting canes after harvest to prevent disease build-up. Maintain adequate spacing between rows for air circulation. Monitor for common pests and diseases regularly.",
+      "sw": "Ondoa matawi ya zamani ya kuzaa baada ya mavuno ili kuzuia mkusanyiko wa ugonjwa. Dumisha nafasi ya kutosha kati ya safu kwa mzunguko wa hewa. Fuatilia wadudu na magonjwa ya kawaida mara kwa mara."
+    },
+    "treatment": {
+      "en": "No treatment needed.",
+      "sw": "Hakuna matibabu yanayohitajika."
+    }
+  },
+  {
+    "name": "Soybean___healthy",
+    "display_name": { "en": "Healthy Soybean", "sw": "Soya Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Plant shows normal vigorous growth with healthy green foliage.",
+      "sw": "Hakuna dalili za ugonjwa. Mmea unaonyesha ukuaji wa kawaida wenye nguvu na majani ya kijani yenye afya."
+    },
+    "preventive_measures": {
+      "en": "Rotate soybeans with non-legume crops to reduce soil pathogen build-up. Use certified disease-free seed with seed treatment. Scout fields regularly throughout the growing season.",
+      "sw": "Zungusha soya na mazao yasiyo ya mikunde ili kupunguza mkusanyiko wa vimelea vya udongo. Tumia mbegu zilizoidhinishwa zisizo na ugonjwa na matibabu ya mbegu. Kagua mashamba mara kwa mara wakati wote wa msimu wa ukuaji."
+    },
+    "treatment": {
+      "en": "No treatment needed.",
+      "sw": "Hakuna matibabu yanayohitajika."
+    }
+  },
+  {
+    "name": "Squash___Powdery_mildew",
+    "display_name": { "en": "Squash Powdery Mildew", "sw": "Ukungu wa Unga wa Boga" },
+    "symptoms": {
+      "en": "White powdery fungal patches on upper and lower leaf surfaces. Affected leaves turn yellow then brown and die. Stems and petioles may also be affected. Severe infection reduces fruit size and quality.",
+      "sw": "Viraka vya ukungu mweupe kama unga kwenye nyuso za juu na za chini za majani. Majani yaliyoathirika yanageuka njano kisha kahawia na kufa. Mashina na mishipi ya majani yanaweza pia kuathiriwa. Maambukizi makali hupunguza ukubwa na ubora wa matunda."
+    },
+    "preventive_measures": {
+      "en": "Plant resistant squash varieties. Ensure adequate plant spacing for air circulation. Avoid overhead watering. Apply preventive potassium bicarbonate or sulphur sprays. Remove infected plant material promptly.",
+      "sw": "Panda aina za boga zinazostahimili. Hakikisha nafasi ya kutosha ya mmea kwa mzunguko wa hewa. Epuka kumwagilia juu. Tumia potasiamu bicarbonate au sulphur kwa kinga. Ondoa nyenzo za mmea zilizoathirika haraka."
+    },
+    "treatment": {
+      "en": "Apply sulphur-based fungicide, myclobutanil or potassium bicarbonate. Spray every 7–10 days while symptoms persist. Neem oil is effective as an organic alternative. Remove and destroy heavily infected leaves.",
+      "sw": "Tumia dawa za sulphur, myclobutanil au potasiamu bicarbonate. Nyunyiza kila siku 7–10 wakati dalili zinaendelea. Mafuta ya mwarobaini yana ufanisi kama mbadala wa kikaboni. Ondoa na uharibu majani yaliyoathirika sana."
+    }
+  },
+  {
+    "name": "Strawberry___Leaf_scorch",
+    "display_name": { "en": "Strawberry Leaf Scorch", "sw": "Kuchomeka kwa Majani ya Stroberri" },
+    "symptoms": {
+      "en": "Small irregular dark purple to red spots on upper leaf surfaces. Spots enlarge and centres turn light brown or greyish. Severely infected leaves look scorched — purplish-red overall. Infected leaves eventually wither and die but remain attached.",
+      "sw": "Madoa madogo yasiyo ya kawaida ya zambarau hadi nyekundu kwenye nyuso za juu za majani. Madoa yanakua na vitovu vinageuka kahawia nyepesi au kijivu. Majani yaliyoathirika sana yanaonekana kama yamechomwa — zambarau-nyekundu kwa ujumla. Majani yaliyoathirika hatimaye yanakufa lakini yanabaki yakiwa yameshikamana."
+    },
+    "preventive_measures": {
+      "en": "Plant certified disease-free runners. Remove and destroy old infected foliage after harvest. Avoid overhead irrigation. Apply preventive fungicide sprays in early spring. Ensure adequate plant spacing for air circulation.",
+      "sw": "Panda vichipukizi vilivyoidhinishwa visivyo na ugonjwa. Ondoa na uharibu majani ya zamani yaliyoathirika baada ya mavuno. Epuka umwagiliaji wa juu. Tumia dawa za kinga mapema wakati wa masika. Hakikisha nafasi ya kutosha ya mmea kwa mzunguko wa hewa."
+    },
+    "treatment": {
+      "en": "Apply captan, myclobutanil or copper-based fungicide sprays. Spray every 7–10 days during wet weather. Remove and destroy heavily infected leaves. Mow and remove foliage after harvest to reduce inoculum for next season.",
+      "sw": "Tumia captan, myclobutanil au dawa za shaba. Nyunyiza kila siku 7–10 wakati wa mvua. Ondoa na uharibu majani yaliyoathirika sana. Kata na ondoa majani baada ya mavuno ili kupunguza chanzo cha ugonjwa kwa msimu ujao."
+    }
+  },
+  {
+    "name": "Strawberry___healthy",
+    "display_name": { "en": "Healthy Strawberry", "sw": "Stroberri Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Plant shows healthy dark green foliage and normal fruit development.",
+      "sw": "Hakuna dalili za ugonjwa. Mmea unaonyesha majani ya kijani giza yenye afya na ukuaji wa kawaida wa matunda."
+    },
+    "preventive_measures": {
+      "en": "Renovate beds after fruiting to remove old foliage. Maintain good drainage. Monitor for common pests and diseases regularly.",
+      "sw": "Fanya ukarabati wa vitanda baada ya kuzaa ili kuondoa majani ya zamani. Dumisha mifereji mzuri. Fuatilia wadudu na magonjwa ya kawaida mara kwa mara."
+    },
+    "treatment": {
+      "en": "No treatment needed.",
+      "sw": "Hakuna matibabu yanayohitajika."
+    }
+  },
+  {
+    "name": "Tomato___Bacterial_spot",
+    "display_name": { "en": "Tomato Bacterial Spot", "sw": "Madoa ya Bakteria ya Nyanya" },
+    "symptoms": {
+      "en": "Small water-soaked circular spots on leaves turning brown with yellow halos. Raised scabby lesions on fruit significantly reduce marketability. Severe defoliation in warm wet conditions.",
+      "sw": "Madoa madogo ya mviringo yaliyoloweshwa na maji kwenye majani yanayogeuka kahawia yenye halos za njano. Vidonda vya ukoko vilivyoinuliwa kwenye matunda hupunguza sana uuzaji. Kupoteza majani kwa kiasi kikubwa katika hali ya joto na mvua."
+    },
+    "preventive_measures": {
+      "en": "Use certified disease-free seed and transplants. Rotate tomatoes with non-solanaceous crops for 2–3 years. Avoid overhead irrigation. Apply copper-based bactericide sprays preventively.",
+      "sw": "Tumia mbegu na miche iliyoidhinishwa isiyo na ugonjwa. Zungusha nyanya na mazao yasiyo ya familia ya solanaceous kwa miaka 2–3. Epuka umwagiliaji wa juu. Tumia dawa za shaba kwa kinga."
+    },
+    "treatment": {
+      "en": "Apply copper hydroxide plus mancozeb spray combination. Spray every 5–7 days during warm wet weather. Remove and destroy heavily infected plant material. Avoid excessive nitrogen fertilisation.",
+      "sw": "Tumia mchanganyiko wa copper hydroxide na mancozeb. Nyunyiza kila siku 5–7 wakati wa hali ya joto na mvua. Ondoa na uharibu nyenzo za mmea zilizoathirika sana. Epuka urutubishaji mwingi wa nitrojeni."
+    }
+  },
+  {
+    "name": "Tomato___Early_blight",
+    "display_name": { "en": "Tomato Early Blight", "sw": "Blight ya Mapema ya Nyanya" },
+    "symptoms": {
+      "en": "Small dark brown spots with concentric rings on lower older leaves first. Yellow areas surround lesions. Stems develop dark sunken lesions at the collar region. Fruit develops dark leathery sunken spots near the stem end.",
+      "sw": "Madoa madogo ya kahawia meusi yenye pete za mduara kwenye majani ya zamani ya chini kwanza. Maeneo ya njano yanazunguka vidonda. Mashina huendeleza vidonda vya giza vilivyozama katika eneo la kola. Matunda huendeleza madoa ya giza ya ngozi yaliyozama karibu na mwisho wa shina."
+    },
+    "preventive_measures": {
+      "en": "Remove lower leaves that touch the soil. Mulch around plants to prevent soil splash. Avoid working with plants when foliage is wet. Rotate tomatoes with non-solanaceous crops for 2–3 years. Use drip irrigation.",
+      "sw": "Ondoa majani ya chini yanayogusa udongo. Weka matandazo karibu na mimea ili kuzuia kuruka kwa udongo. Epuka kufanya kazi na mimea wakati majani ni yenye unyevu. Zungusha nyanya na mazao yasiyo ya solanaceous kwa miaka 2–3. Tumia umwagiliaji wa tone."
+    },
+    "treatment": {
+      "en": "Apply mancozeb or chlorothalonil fungicide sprays every 7 days. Remove infected leaves and stems and dispose away from garden. Apply copper-based sprays as backup treatment.",
+      "sw": "Tumia mancozeb au chlorothalonil kila siku 7. Ondoa majani na mashina yaliyoathirika na yatupe mbali na bustani. Tumia dawa za shaba kama matibabu ya ziada."
+    }
+  },
+  {
+    "name": "Tomato___Late_blight",
+    "display_name": { "en": "Tomato Late Blight", "sw": "Blight ya Marehemu ya Nyanya" },
+    "symptoms": {
+      "en": "Large irregular water-soaked greyish-green to brown lesions on leaves. White powdery growth on leaf undersides during humid weather. Dark brown lesions on stems. Firm brown greasy rot on green or ripening fruits.",
+      "sw": "Vidonda vikubwa visivyo vya kawaida vya kijani-kijivu hadi kahawia vilivyoloweshwa na maji kwenye majani. Ukuaji wa ukungu mweupe kwenye upande wa chini wa majani wakati wa hali ya unyevu. Vidonda vya kahawia meusi kwenye mashina. Kuoza kwa kahawia imara yenye mwonekano wa mafuta kwenye matunda ya kijani au yanayoiva."
+    },
+    "preventive_measures": {
+      "en": "Plant resistant tomato varieties. Avoid overhead irrigation. Increase plant spacing for better air circulation. Apply preventive fungicide sprays during cool wet weather. Destroy infected crop debris at end of season.",
+      "sw": "Panda aina za nyanya zinazostahimili. Epuka umwagiliaji wa juu. Ongeza nafasi ya mmea kwa mzunguko bora wa hewa. Tumia dawa za kinga wakati wa hali ya baridi na mvua. Haribu mabaki ya mazao yaliyoathirika mwishoni mwa msimu."
+    },
+    "treatment": {
+      "en": "Apply systemic fungicides with cymoxanil or metalaxyl immediately. Use copper oxychloride or mancozeb as contact fungicides. Remove all infected plant parts and burn or bury them. In severe outbreaks remove entire affected plants.",
+      "sw": "Tumia dawa za mfumo zenye cymoxanil au metalaxyl mara moja. Tumia copper oxychloride au mancozeb kama dawa za kuwasiliana. Ondoa sehemu zote za mmea zilizoathirika na uzichome au uzizike. Katika milipuko mikali ondoa mimea yote iliyoathirika."
+    }
+  },
+  {
+    "name": "Tomato___Leaf_Mold",
+    "display_name": { "en": "Tomato Leaf Mold", "sw": "Ukungu wa Majani ya Nyanya" },
+    "symptoms": {
+      "en": "Pale greenish-yellow spots on upper leaf surface. Olive-green to greyish-purple velvety mould on leaf undersides corresponding to upper spots. Infected leaves curl, wither and drop. Occurs mainly in high-humidity conditions.",
+      "sw": "Madoa ya njano-kijani hafifu kwenye uso wa juu wa majani. Ukungu wa kijani-mzeituni hadi zambarau-kijivu wenye laini kama velvet kwenye upande wa chini wa majani unaofanana na madoa ya juu. Majani yaliyoathirika yanakunjamika, kunyauka na kuanguka. Hutokea hasa katika hali ya unyevu mkubwa."
+    },
+    "preventive_measures": {
+      "en": "Improve ventilation in greenhouses or tunnels. Reduce humidity by avoiding overhead watering. Remove and destroy infected leaves promptly. Plant resistant varieties where available. Space plants adequately.",
+      "sw": "Boresha uingizaji hewa katika greenhouses au handaki. Punguza unyevu kwa kuepuka kumwagilia juu. Ondoa na uharibu majani yaliyoathirika haraka. Panda aina zinazostahimili zinapopatikana. Panga mimea kwa nafasi inayofaa."
+    },
+    "treatment": {
+      "en": "Apply chlorothalonil, mancozeb or copper compound fungicides. Remove heavily infected leaves and destroy them. Reduce leaf wetness duration by improving airflow. Repeat sprays every 7–10 days until infection is controlled.",
+      "sw": "Tumia chlorothalonil, mancozeb au dawa za shaba. Ondoa majani yaliyoathirika sana na uharibu. Punguza muda wa unyevu wa majani kwa kuboresha mtiririko wa hewa. Rudia kunyunyiza kila siku 7–10 hadi maambukizi yathibitiwe."
+    }
+  },
+  {
+    "name": "Tomato___Septoria_leaf_spot",
+    "display_name": { "en": "Tomato Septoria Leaf Spot", "sw": "Madoa ya Septoria ya Majani ya Nyanya" },
+    "symptoms": {
+      "en": "Small circular spots with dark brown borders and lighter tan or grey centres. Tiny black dots (pycnidia) visible in spot centres under magnification. Begins on lower leaves and moves upward. Severely infected leaves turn yellow and fall off.",
+      "sw": "Madoa madogo ya mviringo yenye mipaka ya kahawia meusi na vitovu vya njano-kahawia au kijivu nyepesi. Nukta ndogo nyeusi (pycnidia) zinaonekana katikati ya madoa chini ya ukuzaji. Inaanza kwenye majani ya chini na kusonga juu. Majani yaliyoathirika sana yanageuka njano na kuanguka."
+    },
+    "preventive_measures": {
+      "en": "Remove infected leaves as soon as symptoms appear. Avoid overhead irrigation. Rotate crops with non-tomato plants for 2 years. Mulch to prevent soil splash onto lower leaves. Stake plants to improve air circulation.",
+      "sw": "Ondoa majani yaliyoathirika mara dalili zinaonekana. Epuka umwagiliaji wa juu. Zungusha mazao na mimea isiyo ya nyanya kwa miaka 2. Weka matandazo ili kuzuia kuruka kwa udongo kwenye majani ya chini. Weka nguzo kwa mimea ili kuboresha mzunguko wa hewa."
+    },
+    "treatment": {
+      "en": "Apply chlorothalonil, mancozeb or copper fungicide sprays. Spray every 7–10 days starting when first spots appear. Remove and destroy all fallen leaves. Ensure complete coverage of both leaf surfaces when spraying.",
+      "sw": "Tumia chlorothalonil, mancozeb au dawa za shaba. Nyunyiza kila siku 7–10 kuanzia madoa ya kwanza yanaonekana. Ondoa na uharibu majani yote yaliyoanguka. Hakikisha mfuniko kamili wa nyuso zote mbili za majani wakati wa kunyunyiza."
+    }
+  },
+  {
+    "name": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "display_name": { "en": "Tomato Spider Mites", "sw": "Utitiri wa Nyanya" },
+    "symptoms": {
+      "en": "Tiny yellow or white speckles on upper leaf surfaces. Fine silken webbing on leaves especially undersides. Leaves turn bronze, yellow or brown and dry out. Severe infestations cause leaf drop and reduced yield.",
+      "sw": "Nukta ndogo za njano au nyeupe kwenye nyuso za juu za majani. Nyuzi nyembamba kama hariri kwenye majani hasa upande wa chini. Majani yanageuka shaba, njano au kahawia na kukauka. Maambukizi makali husababisha kuanguka kwa majani na kupungua kwa mavuno."
+    },
+    "preventive_measures": {
+      "en": "Monitor plants regularly — mites thrive in hot dry conditions. Avoid excessive nitrogen fertilisation. Maintain adequate soil moisture to reduce plant stress. Encourage natural predators like predatory mites and ladybirds.",
+      "sw": "Fuatilia mimea mara kwa mara — utitiri huendelea vizuri katika hali ya joto na ukame. Epuka urutubishaji mwingi wa nitrojeni. Dumisha unyevu wa kutosha wa udongo ili kupunguza msongo wa mmea. Galvanisha wadudu waharibifu wa asili kama utitiri waharibifu na mende wa lucky."
+    },
+    "treatment": {
+      "en": "Spray plants thoroughly with water to dislodge mites. Apply miticide or acaricide (abamectin, bifenazate) to both leaf surfaces. Use insecticidal soap or neem oil as an organic option. Rotate miticide classes to prevent resistance.",
+      "sw": "Nyunyiza mimea kwa maji kwa kina ili kuondoa utitiri. Tumia miticide au acaricide (abamectin, bifenazate) kwenye nyuso zote mbili za majani. Tumia sabuni ya kuua wadudu au mafuta ya mwarobaini kama chaguo cha kikaboni. Zungusha aina za miticide ili kuzuia upinzani."
+    }
+  },
+  {
+    "name": "Tomato___Target_Spot",
+    "display_name": { "en": "Tomato Target Spot", "sw": "Madoa ya Shabaha ya Nyanya" },
+    "symptoms": {
+      "en": "Circular to irregular brown lesions with concentric rings resembling a target. Lesions appear on leaves, stems and fruit. Affected leaves yellow and drop early. Fruit lesions are sunken and dark brown.",
+      "sw": "Vidonda vya kahawia vya mviringo hadi visivyo vya kawaida vyenye pete za mduara vinavyofanana na shabaha. Vidonda vinaonekana kwenye mashina, mashina na matunda. Majani yaliyoathirika yanageuka njano na kuanguka mapema. Vidonda vya matunda vimezama na ni vya kahawia meusi."
+    },
+    "preventive_measures": {
+      "en": "Use resistant varieties if available. Improve air circulation through pruning and staking. Avoid overhead watering. Practise crop rotation. Remove volunteer tomato plants from previous seasons.",
+      "sw": "Tumia aina zinazostahimili zinapopatikana. Boresha mzunguko wa hewa kupitia kukata matawi na kuweka nguzo. Epuka kumwagilia juu. Fanya mzunguko wa mazao. Ondoa mimea ya nyanya isiyotarajiwa kutoka kwa misimu iliyopita."
+    },
+    "treatment": {
+      "en": "Apply azoxystrobin, pyraclostrobin or chlorothalonil fungicides. Begin spraying when first symptoms are observed. Repeat every 7–14 days during wet weather. Remove and destroy infected plant material.",
+      "sw": "Tumia azoxystrobin, pyraclostrobin au chlorothalonil. Anza kunyunyiza dalili za kwanza zinapoonekana. Rudia kila siku 7–14 wakati wa mvua. Ondoa na uharibu nyenzo za mmea zilizoathirika."
+    }
+  },
+  {
+    "name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "display_name": { "en": "Tomato Yellow Leaf Curl Virus", "sw": "Virusi vya Kujikunja Majani ya Nyanya" },
+    "symptoms": {
+      "en": "Severe stunting of the plant. New leaves are significantly smaller, chlorotic (yellow), and curl strongly upwards and inwards. Flowers often drop before fruit set, leading to dramatic yield loss.",
+      "sw": "Kudumaa kwa mmea kwa kiasi kikubwa. Majani mapya yanakuwa madogo sana, ya njano, na yanajikunja sana kuelekea juu na ndani. Mara nyingi maua huanguka kabla ya kutoa matunda, hali inayopelekea kupotea kwa mavuno mengi."
+    },
+    "preventive_measures": {
+      "en": "Control whiteflies (Bemisia tabaci) using yellow sticky traps and fine mesh netting in nurseries. Use reflective mulches to repel whiteflies. Uproot infected plants and seal them in plastic bags before disposal to kill any remaining whiteflies.",
+      "sw": "Dhibiti nzi weupe (whiteflies) kwa kutumia mitego ya rangi ya njano na nyavu ndogo kwenye vitalu. Tumia matandazo yanayoakisi mwanga ili kufukuza nzi weupe. Ng'oa mimea iliyoambukizwa na ifunge kwenye mifuko ya plastiki kabla ya kuitupa ili kuua nzi weupe waliobaki."
+    },
+    "treatment": {
+      "en": "Viruses cannot be treated with pesticides. Use systemic insecticides like Imidacloprid or Acetamiprid to manage whitefly populations. Biological controls like predatory mites or Neem-based sprays can also help reduce vector pressure.",
+      "sw": "Virusi haviwezi kutibiwa kwa viuatilifu. Tumia dawa za wadudu za kimfumo kama Imidacloprid au Acetamiprid ili kudhibiti idadi ya nzi weupe. Njia za asili kama utitiri wanaokula wadudu wengine au dawa za Mwarobaini pia zinaweza kusaidia kupunguza wadudu wanaoeneza virusi."
+    }
+  },
+  {
+    "name": "Tomato___Tomato_mosaic_virus",
+    "display_name": { "en": "Tomato Mosaic Virus", "sw": "Virusi vya Mosaic ya Nyanya" },
+    "symptoms": {
+      "en": "Leaves exhibit a mottled 'mosaic' appearance with alternating light and dark green patches. Leaves may be distorted, fern-like, or narrowed (shoestring effect). Fruit may develop internal browning or uneven ripening.",
+      "sw": "Majani huonyesha madoadoa ya 'mosaic' yenye rangi za kijani kibichi na kijani hafifu zinazopishana. Majani yanaweza kupotoka, kufanana na mmea wa mfunguo, au kuwa membamba sana. Matunda yanaweza kuwa na rangi ya kahawia ndani au kuiva bila mpangilio."
+    },
+    "preventive_measures": {
+      "en": "Use virus-free certified seeds. Avoid smoking near plants as the virus can be carried in tobacco. Wash hands and tools with soap or a trisodium phosphate solution after handling plants. Rogue out infected plants immediately.",
+      "sw": "Tumia mbegu zilizothibitishwa kutokuwa na virusi. Epuka kuvuta sigara karibu na mimea kwani virusi vinaweza kubebwa kwenye tumbaku. Osha mikono na vifaa kwa sabuni au daway ya trisodium phosphate baada ya kugusa mimea. Ng'oa mimea iliyoambukizwa mara moja."
+    },
+    "treatment": {
+      "en": "No chemical cure exists for viruses. Focus on preventing spread by removing infected plants and controlling sap-sucking insects like aphids. Replant with resistant hybrids in the next cycle.",
+      "sw": "Hakuna tiba ya kemikali kwa virusi. Elekeza nguvu kwenye kuzuia kuenea kwa kuondoa mimea iliyoathirika na kudhibiti wadudu wanaofyonza utomvu kama chawa wa mimea (aphids). Panda aina chotara zinazostahimili katika msimu ujao."
+    }
+  },
+  {
+    "name": "Tomato___healthy",
+    "display_name": { "en": "Healthy Tomato", "sw": "Nyanya Yenye Afya" },
+    "symptoms": {
+      "en": "No disease symptoms detected. Plant shows vigorous healthy growth with deep green foliage and normal fruit development.",
+      "sw": "Hakuna dalili za ugonjwa. Mmea unaonyesha ukuaji wenye nguvu na afya na majani ya kijani giza na ukuaji wa kawaida wa matunda."
+    },
+    "preventive_measures": {
+      "en": "Continue regular monitoring. Maintain balanced NPK fertilisation. Water consistently at the base of the plant.",
+      "sw": "Endelea kufuatilia mara kwa mara. Dumisha urutubishaji wa NPK ulio na usawa. Mwagilia mara kwa mara kwenye msingi wa mmea."
+    },
+    "treatment": {
+      "en": "No treatment needed. Maintain current care routine.",
+      "sw": "Hakuna matibabu yanayohitajika. Dumisha utaratibu wa sasa wa utunzaji."
+    }
+  },
+{
+    "name": "Beans___Anthracnose",
+    "display_name": { "en": "Beans Anthracnose", "sw": "Ugonjwa wa Anthracnose kwa Maharage" },
+    "symptoms": {
+      "en": "Dark brown to black sunken lesions on stems, pods, and leaf veins. In humid conditions, salmon-pink spore masses appear in the center of lesions. Infected seeds show brown to black spots. Severe cases lead to systemic wilting and plant death.",
+      "sw": "Vidonda vilivyozama vya kahawia iliyoiva au nyeusi kwenye mashina, maganda, na mishipa ya majani. Katika hali ya unyevu, mkusanyiko wa spora za rangi ya pinki huonekana katikati ya vidonda. Mbegu zilizoambukizwa huwa na madoa ya kahawia au nyeusi. Maambukizi makali husababisha mnyauko na kifo cha mmea."
+    },
+    "preventive_measures": {
+      "en": "Use certified pathogen-free seeds. Practice a 2-3 year crop rotation with non-legumes. Avoid movement in the field when plants are wet to prevent spore dispersal. Remove and burn crop residues after harvest.",
+      "sw": "Tumia mbegu bora zilizothibitishwa zisizo na vimelea. Fanya mzunguko wa mazao wa miaka 2-3 na mazao yasiyo jamii ya mikunde. Epuka kupita shambani wakati mimea ni miloana ili kuzuia kueneza spora. Ondoa na choma mabaki ya mazao baada ya kuvuna."
+    },
+    "treatment": {
+      "en": "Apply protective fungicides such as Mancozeb, Chlorothalonil, or Carbendazim at the first sign of infection. Repeat applications every 7-10 days depending on rainfall and disease pressure.",
+      "sw": "Tumia dawa za kinga za kuvu (fungicides) kama Mancozeb, Chlorothalonil, au Carbendazim mara tu dalili za kwanza zinapoonekana. Rudia kupiga dawa kila baada ya siku 7-10 kulingana na wingi wa mvua na kasi ya ugonjwa."
+    }
+  },
+  {
+    "name": "Beans___Rust",
+    "display_name": { "en": "Beans Rust", "sw": "Kutu ya Maharage" },
+    "symptoms": {
+      "en": "Small, raised, reddish-brown powdery pustules on the undersides of leaves, occasionally on pods and stems. Pustules may be surrounded by a yellow halo. Leaves turn yellow, dry up, and fall off prematurely, significantly reducing yield.",
+      "sw": "Vipele vidogo vilivyoinuka vya rangi ya kahawia-nyekundu kama unga upande wa chini wa majani, na wakati mwingine kwenye maganda na mashina. Vipele vinaweza kuzungukwa na rangi ya njano. Majani hugeuka njano, hukauka, na kuanguka mapema, hali inayopunguza mavuno kwa kiasi kikubwa."
+    },
+    "preventive_measures": {
+      "en": "Plant rust-resistant varieties. Ensure proper plant spacing to improve air circulation and reduce leaf wetness duration. Practice crop rotation and eliminate volunteer bean plants which can harbor the fungus.",
+      "sw": "Panda aina zinazostahimili kutu. Hakikisha nafasi sahihi kati ya mmea na mmea ili kuboresha mzunguko wa hewa na kupunguza muda wa majani kubaki na unyevu. Fanya mzunguko wa mazao na haribu mimea ya maharage inayoota yenyewe ambayo inaweza kuhifadhi fangasi."
+    },
+    "treatment": {
+      "en": "Spray foliar fungicides such as Propiconazole, Tebuconazole, or Bitertanol. Start treatment as soon as the first pustules are observed. Sulfur-based dusts can also be used as a preventative or early-stage control.",
+      "sw": "Nyunyizia dawa za majani za kuvu kama Propiconazole, Tebuconazole, au Bitertanol. Anza matibabu mara tu vipele vya kwanza vinapoonekana. Unga wa Sulphur pia unaweza kutumika kama kinga au udhibiti wa hatua za awali."
+    }
+  },
+{
+    "name": "Beans___Angular_LeafSpot",
+    "display_name": { "en": "Beans Angular Leaf Spot", "sw": "Madoa ya Majani ya Maharage" },
+    "symptoms": {
+      "en": "Grey or brown angular lesions on leaves, strictly delimited by leaf veins. On the undersides of leaves, tiny black bristle-like structures (synnemata) can be seen within lesions. Pods may develop circular reddish-brown spots.",
+      "sw": "Madoa ya kijivu au kahawia yenye pembe kwenye majani, yaliyozuiliwa na mishipa ya majani. Kwa upande wa chini wa majani, vinyweleo vidogo vyeusi vinaweza kuonekana ndani ya madoa hayo. Maganda yanaweza kupata madoa ya mduara ya kahawia-nyekundu."
+    },
+    "preventive_measures": {
+      "en": "Practice crop rotation for at least two years. Use clean, certified seeds. Incorporate crop residues into the soil deep enough to facilitate decomposition. Avoid overhead irrigation which splashes spores.",
+      "sw": "Fanya mzunguko wa mazao kwa angalau miaka miwili. Tumia mbegu safi zilizothibitishwa. Fukia mabaki ya mazao ndani ya udongo ili yaweze kuoza haraka. Epuka umwagiliaji wa kunyunyizia juu ambao hurusha spora za ugonjwa."
+    },
+    "treatment": {
+      "en": "Apply copper-based fungicides (e.g., Copper Oxychloride) or Mancozeb. Treatment should begin at flowering or when lesions first appear on lower leaves. Repeat every 10-14 days.",
+      "sw": "Tumia dawa za kuvu zenye asili ya shaba (mfano, Copper Oxychloride) au Mancozeb. Matibabu yanapaswa kuanza wakati wa kutoa maua au madoa yanapoonekana kwenye majani ya chini. Rudia kila baada ya siku 10-14."
+    }
+  },
+  {
+    "name": "Beans___Healthy",
+    "display_name": { "en": "Healthy Beans", "sw": "Maharage Yenye Afya" },
+    "symptoms": {
+      "en": "Leaves are vibrant green, turgid, and free from spots or discoloration. Stems are firm and pods are developing normally without any lesions or deformities.",
+      "sw": "Majani ni ya kijani kibichi, imara, na hayana madoa au mabadiliko ya rangi. Mashina ni imara na maganda yanastawi kawaida bila vidonda au ulemavu wowote."
+    },
+    "preventive_measures": {
+      "en": "Maintain optimal soil fertility and moisture. Scout the field regularly for early detection of pests or diseases. Use clean tools and maintain general farm hygiene.",
+      "sw": "Dumisha rutuba ya udongo na unyevu wa kutosha. Kagua shamba mara kwa mara ili kubaini wadudu au magonjwa mapema. Tumia vifaa safi na dumisha usafi wa jumla wa shamba."
+    },
+    "treatment": {
+      "en": "No chemical treatment required. Continue with good agricultural practices (GAP).",
+      "sw": "Hakuna matibabu ya kemikali yanayohitajika. Endelea na taratibu bora za kilimo (GAP)."
+    }
+  },
+{
+    "name": "Pigeon_pea___Leaf_Spot",
+    "display_name": { "en": "Pigeon Pea Leaf Spot", "sw": "Madoa ya Majani ya Kunde" },
+    "symptoms": {
+      "en": "Circular to irregular brown or dark brown spots on leaves. As the disease progresses, the spots coalesce, causing leaves to yellow and drop (defoliation). This reduces the photosynthetic area and affects pod development.",
+      "sw": "Madoa ya mduara au yasiyo na mpangilio ya kahawia au kahawia iliyoiva kwenye majani. Ugonjwa unapoendelea, madoa huungana na kusababisha majani kuwa ya njano na kuanguka. Hali hii inapunguza uwezo wa mmea kutengeneza chakula na kuathiri ukuaji wa maganda."
+    },
+    "preventive_measures": {
+      "en": "Space plants correctly to reduce humidity within the canopy. Remove and destroy infected plant debris. Rotate pigeon peas with cereals like maize or sorghum to break the fungal life cycle.",
+      "sw": "Panda miche kwa nafasi sahihi ili kupunguza unyevu ndani ya majani. Ondoa na haribu mabaki ya mimea yaliyoambukizwa. Zungusha kunde na nafaka kama mahindi au mtama ili kukata mzunguko wa maisha wa fangasi."
+    },
+    "treatment": {
+      "en": "Spray fungicides such as Mancozeb, Carbendazim, or Chlorothalonil. Apply as soon as spots are noticed, particularly during the rainy season or periods of high humidity.",
+      "sw": "Nyunyizia dawa za kuvu kama Mancozeb, Carbendazim, au Chlorothalonil. Tumia mara tu madoa yanapoonekana, hasa wakati wa masika au vipindi vya unyevu mwingi."
+    }
+  },
+  {
+    "name": "Pigeon_pea___Leaf_webber",
+    "display_name": { "en": "Pigeon Pea Leaf Webber", "sw": "Mdudu wa Kufunga Majani ya Kunde" },
+    "symptoms": {
+      "en": "Larvae web together leaves, flower buds, and pods using silken threads. They feed inside these webs, skeletonizing leaves and damaging developing seeds. Presence of dark frass (insect excrement) is often visible within the webbed clusters.",
+      "sw": "Lava huunganisha majani, machipukizi ya maua, na maganda kwa kutumia nyuzi za hariri. Wanakula ndani ya nyuzi hizo, wakibakiza mishipa ya majani na kuharibu mbegu zinazokua. Uwepo wa kinyesi cheusi cha wadudu huonekana ndani ya mafungu hayo yaliyofungwa."
+    },
+    "preventive_measures": {
+      "en": "Scout fields twice a week starting from the flowering stage. Manually pick and destroy webbed leaf clusters in small plots. Encourage natural enemies like predatory wasps and birds.",
+      "sw": "Kagua shamba mara mbili kwa wiki kuanzia hatua ya kutoa maua. Okota na haribu kwa mikono mafungu ya majani yaliyofungwa katika mashamba madogo. Hamasisha maadui wa asili kama nyigu na ndege wanaokula wadudu."
+    },
+    "treatment": {
+      "en": "Apply biological insecticides like Neem oil or Bacillus thuringiensis (Bt). For severe infestations, use chemical insecticides such as Spinosad, Indoxacarb, or Quinalphos, ensuring thorough coverage of the webbed areas.",
+      "sw": "Tumia dawa za asili za wadudu kama mafuta ya Mwarobaini au Bacillus thuringiensis (Bt). Kwa mashambulizi makali, tumia kemikali kama Spinosad, Indoxacarb, au Quinalphos, ukihakikisha dawa inafika vizuri maeneo yaliyofungwa."
+    }
+  },
+  {
+    "name": "Pigeon_pea___Sterlic_mosaic",
+    "display_name": { "en": "Pigeon Pea Sterility Mosaic", "sw": "Mosaic ya Kunde" },
+    "symptoms": {
+      "en": "Characterized by a 'bushy' appearance due to shortened internodes. Leaves show mosaic patterns (light and dark green patches) and are smaller in size. Infected plants produce few or no flowers and pods, leading to total sterility.",
+      "sw": "Inatambulika kwa mwonekano wa 'kichaka' kutokana na mmea kutokua mrefu. Majani huonyesha madoadoa ya kijani kibichi na kijani hafifu (mosaic) na huwa madogo. Mimea iliyoambukizwa hutoa maua machache au kutotoa kabisa, na kusababisha mmea kutokuzaa mbegu."
+    },
+    "preventive_measures": {
+      "en": "Plant resistant or tolerant varieties (the most effective method). Control the eriophyid mite vector which spreads the virus. Rogue out (uproot) and destroy infected plants as soon as they are identified to prevent further spread.",
+      "sw": "Panda aina zinazostahimili ugonjwa (njia bora zaidi). Dhibiti utitiri (eriophyid mites) ambao hueneza virusi hivi. Ng'oa na haribu mimea iliyoambukizwa mara tu inapogundulika ili kuzuia kuenea zaidi."
+    },
+    "treatment": {
+      "en": "There is no cure for the virus itself. To control the spread, apply acaricides (miticides) like Dicofol or Fenazaquin to eliminate the mites carrying the virus.",
+      "sw": "Hakuna tiba ya virusi vyenyewe. Ili kudhibiti kuenea, tumia dawa za kuua utitiri (acaricides) kama Dicofol au Fenazaquin ili kuangamiza utitiri wanaobeba virusi hivyo."
+    }
+  },
+  {
+    "name": "Pigeon_pea___Healthy",
+    "display_name": { "en": "Healthy Pigeon Pea", "sw": "Kunde Yenye Afya" },
+    "symptoms": {
+      "en": "The plant is upright with normal height. Leaves are uniformly green without mosaic or spots. Profuse flowering and healthy pod set are evident during the reproductive stage.",
+      "sw": "Mmea umesimama wima na una urefu wa kawaida. Majani ni ya kijani kote bila madoadoa ya mosaic au madoa ya kahawia. Kutoa maua mengi na maganda yenye afya huonekana wakati wa hatua ya uzazi."
+    },
+    "preventive_measures": {
+      "en": "Ensure timely planting and proper weed control. Apply balanced fertilizers based on soil tests. Monitor for early signs of mite infestation or leaf spotting.",
+      "sw": "Hakikisha kupanda kwa wakati na udhibiti mzuri wa magugu. Tumia mbolea iliyosawazishwa kulingana na vipimo vya udongo. Fuatilia ishara za awali za utitiri au madoa ya majani."
+    },
+    "treatment": {
+      "en": "No treatment needed. Maintain healthy growth through proper irrigation and nutrition.",
+      "sw": "Hakuna matibabu yanayohitajika. Dumisha ukuaji mzuri kupitia umwagiliaji na lishe sahihi."
+    }
+  }
+]
